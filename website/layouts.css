@@ -1,0 +1,152 @@
+
+/*styling the second section */
+.paragraphs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+
+.button {
+    background-color: purple;
+    border: 2px solid black;
+    border-radius:12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    flex-grow: 8;   
+  }
+
+  #button-div{
+  
+      position: absolute;
+      top: 8px;
+      right: 16px; 
+  }
+
+  /* #flex-nobbas{
+
+  }
+  #span-nobbasimg{
+
+  }*/
+  #flex-divA{   
+   display: flex;
+   width: 1120px;
+   padding: 10px;
+   border: 5px solid gray;
+   margin: 0;
+   height:80px;
+  }
+  #flex-divA #right-col{
+    background-color: aqua;
+  }
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    height: auto;
+    opacity: 0.3 ;
+    background-size: cover;
+    
+}
+  
+
+  /*text on images*/
+  #text-on-images{
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  #div1{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+  }
+#flex-items{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 4;
+  flex-basis:auto;
+  height: 50px;
+  justify-content:center;
+  align-items: stretch;
+  align-content: stretch;
+  order: 3,9,3;  
+}
+/*class demo content*/
+.demo-content{
+  padding: 15px;
+  font-size: 18px;
+  background: #dbdfe5;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* editing all the images in the span*/
+.span-4-font{
+  font-size: 80%;
+  display: flex;
+
+}
+
+
+/*editing the span*/
+
+.demo-content #image-span{
+  
+    width:500;
+    height:600;
+    background-color: none;
+}
+.image{
+  display: flex;
+}
+
+/*for the footer*/
+#flex-footer{
+  background-color: blueviolet;
+  flex-shrink: 0;
+}
+
+/*styling why nobbas*/
+#Why-nobbas{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 75px;
+  font-size: 50px;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-stretch: expanded;
+}
+
+#copyright{
+  display: flex;
+  justify-content: center;
+  font-stretch: expanded;
+
+}
+
