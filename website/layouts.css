@@ -1,11 +1,11 @@
 
-/*styling the second section */
+/*styling the second section 
 .paragraphs{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 
-}
+}*/
 
 
 .button {
@@ -54,14 +54,7 @@
   right: 16px;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    
-    background-size: cover;
-    
-}
-  
+
 
   /*text on images*/
   #text-on-images{
@@ -136,9 +129,9 @@ img {
   text-align: center;
   line-height: 75px;
   font-size: 50px;
+  font-family: 'Jost', sans-serif;
   padding: 0px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 50px;
   font-stretch: expanded;
 }
 
@@ -146,6 +139,5 @@ img {
   display: flex;
   justify-content: center;
   font-stretch: expanded;
-
 }
 
